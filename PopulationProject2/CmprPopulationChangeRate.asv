@@ -1,0 +1,14 @@
+function [] = CmprPopulationChangeRate(string_years,cities,change_rates)
+
+
+
+
+bar(string_years,change_rates)
+
+for i :
+legend(city1{1},city2{1})
+xlabel("Years");
+ylabel("Change Rates");
+grid("on");
+title("Comparision of Population Change Rates By Year")
+end
